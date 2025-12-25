@@ -2,7 +2,7 @@ function fizzbuzz(num)
 {
     return num;
 }
-let number = fizzbuzz(20);
+let number = fizzbuzz(30);
 let i;
 for(i = 1; i <= number; i++)
 {
@@ -13,6 +13,10 @@ for(i = 1; i <= number; i++)
     else if(i % 3 == 0)
     {
         console.log("Fizz");
+    }
+    else if(i % 5 == 0)
+    {
+        console.log("Buzz");
     }
     else {
         console.log(i);
